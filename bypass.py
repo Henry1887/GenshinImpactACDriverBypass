@@ -36,7 +36,7 @@ def main():
 
         subprocess.Popen([game_executable], shell=True)
 
-        input("Press Enter when you are in-game...")
+        input("Press Enter when you are in the title screen...")
 
         print(f"Restoring {temp_driver_file} to {driver_file}...")
 
