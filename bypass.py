@@ -26,7 +26,7 @@ def main():
     temp_driver_file = os.path.join(os.path.abspath(game_dir),"HoYoKProtect.sys.orig")
 
     if not os.path.isfile(driver_file):
-        print(f"Driver file {driver_file} not found in the current directory.")
+        print(f"Driver file {driver_file} not found")
         input("Press Enter to exit...")
         return
 
